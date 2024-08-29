@@ -1,0 +1,15 @@
+*{
+    background-color:#777;
+    color: azure;
+    text-align: center;
+}
+
+.name{
+    color:rgb(112, 57, 32);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    filter: drop-shadow(10px 10px 10px red );
+    color: yellow;
+
+}
