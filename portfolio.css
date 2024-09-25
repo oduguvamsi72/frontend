@@ -1,0 +1,52 @@
+*{
+    background-color:black;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.name{
+    color:rgb(112, 57, 32);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    filter: drop-shadow(10px 10px 10px red );
+    color: rgb(0, 98, 255);
+}
+
+.banner{
+background-image: url("https://occ-0-2086-2186.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXtihDJxEqtvxv98Ibh9i0P1wtp9mfgtmxMGk_Y1d6C3lExdfTIKS7VUnLBhZhOc3-WTPHi4ZCQt-EKI-eK-vHvE2TH6dqFlLLCVTkwKTvdWGJ3THE4-I4ql.jpg?r=079");
+background-size: cover;
+background-position: center center;
+max-width: 100%;
+background-repeat: no-repeat;
+height: 700px;
+color:orchid;
+}
+
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 1% 0.5%;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 0.9%;
+}
+h4{
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 700%;
+padding:0.5% 0.5%;
+color: white;
+text-align: center;
+}
+.net{
+    text-align: left;
+}
+
